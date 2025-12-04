@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF=8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab Page</title>
 
@@ -10,18 +10,26 @@
 
   <body>
     
-    <header class="site-header">
-      <a href="#" class="logo">My Website</a>
+<header class="site-header">
+  <a href="#" class="logo">My Website</a>
 
-      <nav class="site-nav">
-        <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Hidden checkbox controls the menu -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+  <!-- Hamburger button -->
+  <label for="menu-toggle" class="menu-btn" aria-label="Toggle navigation">
+    ☰
+  </label>
+
+  <nav class="site-nav">
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
     <main style="padding: 2rem; max-width: 700px; margin: auto;">
       <h1>Welcome</h1>
